@@ -168,3 +168,18 @@ a:hover {
   color: #ff5cbe; /* Green color specific to Contact section links */
   font-size: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap; /* Allow links to wrap if necessary */
+    padding: 0.5rem;
+    justify-content: center; /* Center-align the navbar links */
+  }
+
+  nav a {
+    flex: 1 1 auto; /* Adjust link widths to fit properly */
+    text-align: center; /* Center the text inside links */
+    padding: 0.5rem; /* Add padding for better spacing */
+  }
+}
